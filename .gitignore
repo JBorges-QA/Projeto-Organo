@@ -1,0 +1,22 @@
+# Arquivos de saída do Robot Framework
+log.html
+output.xml
+report.html
+
+# Pastas comuns de build e dependências
+__pycache__/
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do ambiente virtual (caso use venv)
+venv/
+env/
+*.egg-info/
+
+# Configurações locais e arquivos temporários
+*.log
+.DS_Store
+Thumbs.db
