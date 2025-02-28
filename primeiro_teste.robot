@@ -4,3 +4,16 @@ Library    SeleniumLibrary
 *** Test Cases ***
 Abrir navegador e acessar o site do organo
     Open Browser   url=http://localhost:3000/   browser=Chrome
+    Maximize Browser Window
+
+
+Preencher os campos do formulário
+    Input Text    id:form-nome      Akemi
+    Input Text    id:form-cargo     Desenvolvedora
+    Input Text    id:form-imagem    https://shorturl.at/h5l8x
+    Click Element    class:lista-suspensa
+    Click Element    //option[contains(.,'Programação')]
+    Sleep  10s
+    Click Element    id:form-botao
+    Element Should Be Visible    class:colaborador
+    Sleep    5s
