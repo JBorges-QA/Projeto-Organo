@@ -1,11 +1,11 @@
 # Projeto Órgano - Testes E2E com Robot Framework
 
-Este projeto tem como principal objetivo a realização de testes End-to-End (E2E) na aplicação web **Órgano**, garantindo a qualidade e o funcionamento das funcionalidades principais da plataforma.
+Este projeto tem como principal objetivo a realização de testes End-to-End (E2E) na aplicação web **Organo**, garantindo a qualidade e o funcionamento das funcionalidades principais da plataforma.
 
 ## 🚧 Status do Projeto
 
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **1% Concluído**  
-*(O projeto ainda está em desenvolvimento. Novos testes e melhorias serão adicionados em breve.)*
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 **100% Concluído**  
+*(Todos os testes planejados foram implementados e estão funcionando conforme esperado.)*
 
 ---
 
@@ -26,9 +26,3 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 - **SeleniumLibrary**
 - **Um navegador compatível** (Chrome, Edge, Firefox, etc.)
 - **WebDriver** correspondente ao seu navegador
-
-Para instalar as dependências, execute:
-
-```bash
-pip install robotframework
-pip install robotframework-seleniumlibrary
